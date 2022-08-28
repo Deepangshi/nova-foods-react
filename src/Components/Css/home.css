@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap");
+
+.h-a {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+
+  color: #fbfbfb;
+}
+
+.h-b {
+  font-family: "Syne";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 70px;
+  margin-bottom: 0px;
+
+  color: #fbfbfb;
+}
+
+.btn-a {
+  height: 70px;
+  width: 200px;
+  background: #fbfbfb;
+  border: none;
+  border-radius: 0;
+  cursor: pointer;
+  pointer-events: none;
+
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: 1.81818px;
+  text-transform: uppercase;
+
+  color: #e7302a;
+}
+
+.h-a1 {
+  display: none;
+}
+
+/* xl for big screen */
+@media only screen and (min-width: 1536px) {
+  .h-a {
+    font-size: 28px;
+    line-height: 34px;
+    letter-spacing: 4.2px;
+  }
+
+  .h-b {
+    font-size: 80px;
+    line-height: 96px;
+  }
+}
+
+/* phone  & small ipad*/
+@media only screen and (max-device-width: 900px) {
+  .h-a1 {
+    display: block;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+    color: #fbfbfb;
+  }
+
+  .h-c1 {
+    font-family: "Syne";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 46px;
+
+    text-align: center;
+
+    color: #fbfbfb;
+  }
+
+  .h-c2 {
+    font-family: "Syne";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 46px;
+
+    text-align: center;
+
+    color: #fbfbfb;
+    margin-top: 8px;
+  }
+
+  .btn-o {
+    height: 50px;
+    width: 156px;
+    border: 3px solid #fbfbfb;
+    border-radius: 0;
+    background-color: transparent;
+    pointer-events: none;
+
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+    color: #fbfbfb;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .btn-r {
+    height: 50px;
+    width: 156px;
+    border: 3px solid #fbfbfb;
+    border-radius: 0;
+    background: #fbfbfb;
+    pointer-events: none;
+
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+
+    text-align: center;
+    letter-spacing: 1px;
+
+    color: #e7302a;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

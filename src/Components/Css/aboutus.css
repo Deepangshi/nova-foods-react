@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700&display=swap");
+
+.about {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.a-a {
+  font-family: "Syne";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 70px;
+  color: #ffffff;
+}
+
+.text-1 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 30px;
+
+  letter-spacing: 2px;
+  text-transform: uppercase;
+
+  color: #0d0d0d;
+  padding-bottom: 20px;
+}
+
+.text-2 {
+  width: auto;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+
+  color: #0d0d0d;
+}
+
+.text-3 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+
+  color: #0d0d0d;
+}
+.text-4 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+
+  text-align: center;
+
+  color: #0d0d0d;
+
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+/* xl for big screen */
+@media only screen and (min-width: 1536px) {
+  .a-a {
+    font-size: 70px;
+    line-height: 105px;
+  }
+
+  .text-1,
+  .text-3 {
+    font-size: 28px;
+    line-height: 34px;
+    letter-spacing: 4.2px;
+  }
+  .text-2 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+  .text-4 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+}
+
+/* ipad */
+@media only screen and (max-device-width: 900px) {
+  .about-a {
+    flex-direction: column !important;
+  }
+}
+
+/* phone */
+@media only screen and (max-device-width: 600px) {
+  .a-a {
+    font-size: 24px;
+    line-height: 36px;
+  }
+  .text-1 {
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 4.2px;
+    text-align: center;
+  }
+
+  .text-2 {
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+  }
+
+  .text-3 {
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 4.2px;
+  }
+
+  .text-4 {
+    font-size: 12px;
+    line-height: 18px;
+  }
+}

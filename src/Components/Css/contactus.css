@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700&display=swap");
+
+.ctext-1 {
+  font-family: "Syne";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 55px;
+
+  color: #0d0d0d;
+}
+
+.ctext-2 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+
+  color: #0d0d0d;
+  margin-top: 14px;
+  margin-bottom: 0px;
+}
+
+.ctext-3 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10.5px;
+  line-height: 20px;
+
+  text-align: center;
+  color: #0d0d0d;
+}
+
+.text-n {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+
+  color: #0d0d0d;
+}
+.text-n1 {
+  width: 100%;
+  height: 40px;
+  background: #fbfbfb;
+  border: none;
+}
+
+.text-n2 {
+  width: 100%;
+  height: 100px;
+  background: #fbfbfb;
+  border: none;
+}
+
+.btn-cont {
+  margin-left: auto;
+  background: #e7302a;
+  border: none;
+  border-radius: 0;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 22px;
+
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+
+  color: #fbfbfb;
+}
+
+/* xl for big screen */
+@media only screen and (min-width: 1536px) {
+  .ctext-1 {
+    font-size: 50px;
+    line-height: 75px;
+  }
+  .ctext-2 {
+    font-size: 18px;
+    line-height: 27px;
+  }
+  .ctext-3 {
+    font-size: 14px;
+    line-height: 27px;
+  }
+}
+
+/* phone */
+@media only screen and (max-device-width: 600px) {
+  .ctext-1 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+
+  .ctext-2 {
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  .p-t1 {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+
+    color: #0d0d0d;
+    margin-left: 19px;
+  }
+}

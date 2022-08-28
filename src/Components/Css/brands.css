@@ -1,0 +1,266 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700&display=swap");
+
+.btext-1 {
+  font-family: "Syne";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 45px;
+  text-align: center;
+
+  color: #0d0d0d;
+}
+
+.btext-2 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #0d0d0d;
+}
+
+.m-text {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 4.2px;
+  text-transform: uppercase;
+
+  color: #ee2e24;
+}
+
+.m-text1 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+
+  color: #fbfbfb;
+}
+
+.f-text1 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+
+  color: #000000;
+}
+
+.f-text2 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+
+  color: #0d0d0d;
+}
+
+.t-text1 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+
+  color: #e8912f;
+}
+
+.t-text2 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+
+  color: #fbfbfb;
+}
+
+.sw-text1 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+
+  color: #303030;
+}
+
+.sw-text2 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #0d0d0d;
+}
+
+.cl-text {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+
+  color: #ce3334;
+}
+
+.cl-text1 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+
+  color: #0d0d0d;
+}
+
+.r-text1 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 38px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+
+  color: #f7cd5e;
+}
+
+.r-text2 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+
+  color: #fbfbfb;
+}
+
+/* xl for big screen */
+@media only screen and (min-width: 1536px) {
+  .btext-1 {
+    font-size: 50px;
+    line-height: 75px;
+  }
+
+  .btext-2 {
+    font-size: 18px;
+    line-height: 27px;
+  }
+
+  .m-text {
+    font-size: 28px;
+    line-height: 34px;
+    letter-spacing: 4.2px;
+  }
+
+  .m-text1 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+  .f-text1 {
+    font-size: 28px;
+    line-height: 34px;
+    letter-spacing: 4.2px;
+  }
+
+  .f-text2 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+
+  .t-text1 {
+    font-size: 28px;
+    line-height: 34px;
+    letter-spacing: 4.2px;
+  }
+  .t-text2 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+
+  .sw-text1 {
+    font-size: 28px;
+    line-height: 34px;
+    letter-spacing: 4.2px;
+  }
+
+  .sw-text2 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+  .cl-text {
+    font-size: 28px;
+    line-height: 34px;
+    letter-spacing: 4.2px;
+  }
+  .cl-text1 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+
+  .r-text1 {
+    font-size: 28px;
+    line-height: 34px;
+    letter-spacing: 4.2px;
+  }
+  .r-text2 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+}
+
+/* phone */
+@media only screen and (max-device-width: 600px) {
+  .btext-1 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+
+  .brand-1 {
+    text-align: center;
+  }
+
+  .brand-2 {
+    flex-direction: column-reverse !important;
+    text-align: center;
+  }
+
+  .m-text,
+  .f-text1,
+  .t-text1,
+  .sw-text1,
+  .cl-text,
+  .r-text1 {
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 4.2px;
+  }
+
+  .btext-2,
+  .m-text1,
+  .f-text2,
+  .t-text2,
+  .sw-text2,
+  .cl-text1,
+  .r-text2 {
+    font-size: 12px;
+    line-height: 18px;
+  }
+}

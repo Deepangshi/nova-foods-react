@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap");
+
+.footer {
+  width: 100%;
+}
+
+.f-a {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.f-b {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+}
+.f-aa {
+  font-weight: bold;
+}
+.f-others {
+  color: #0d0d0d;
+}
+
+.footer-home {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  background-color: transparent !important;
+  justify-content: space-between;
+}
+
+.foot-home {
+  color: #fbfbfb !important;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0.5) 100%
+  );
+}
+
+.footer-contact {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  background-color: transparent !important;
+  justify-content: space-between;
+}
+
+.foot-contact {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #ffffff 100%);
+  border-top: 1px solid #c7c7c7;
+}
+
+/* xl for big screen */
+@media only screen and (min-width: 1536px) {
+  .f-a {
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  .f-b {
+    font-size: 14px;
+    line-height: 22px;
+  }
+}
+
+/* phone */
+@media only screen and (max-device-width: 900px) {
+  .footer {
+    display: none;
+  }
+}
