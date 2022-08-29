@@ -35,7 +35,7 @@ const ContactUs = () => {
       }}
       display="flex"
       justifyContent="space-between"
-      paddingTop={{ xs: "32px", sm: "40px", md: "40px", xl: "70px" }}
+      paddingTop={{ xs: "32px", sm: "40px", md: "30px", xl: "70px" }}
       paddingBottom={{ xs: "40px", sm: "0" }}
       paddingInline={{
         xs: "16px",
@@ -43,6 +43,7 @@ const ContactUs = () => {
         lg: "calc(calc(100vw - 900px) / 2)",
         xl: "calc(calc(100vw - 1150px) / 2)",
       }}
+      spacing={2}
       overflow="hidden"
     >
       {/* left */}
@@ -62,7 +63,7 @@ const ContactUs = () => {
 
         <Grid
           display={{ xs: "none", lg: "flex" }}
-          paddingTop={{ xs: "20px", sm: "15px", md: "20px", xl: "50px" }}
+          paddingTop={{ xs: "20px", sm: "15px", md: "10px", xl: "50px" }}
           justifyContent="space-between"
         >
           <Grid item sm={4}>
@@ -133,7 +134,7 @@ const ContactUs = () => {
 
         <Grid marginTop="auto" display={{ xs: "none", sm: "block" }}>
           <Box
-            width={{ sm: "270px", md: "300px", xl: "511px" }}
+            width={{ sm: "270px", md: "330px", xl: "360px" }}
             marginLeft="auto"
             marginRight="auto"
           >

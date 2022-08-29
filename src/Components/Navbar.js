@@ -154,6 +154,7 @@ const Navbar = () => {
       >
         <Drawer
           variant="temporary"
+          anchor={"right"}
           open={mobileOpen}
           onClose={handleDrawerToggle}
           ModalProps={{

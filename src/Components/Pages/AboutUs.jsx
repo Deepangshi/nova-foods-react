@@ -105,19 +105,19 @@ const AboutUs = () => {
 
         <Grid
           container
-          paddingTop={{ xs: "50px", sm: "80px" }}
+          paddingTop={{ xs: "50px", sm: "80px", xl: "90px" }}
           textAlign="center"
+          spacing={4}
         >
           <Grid
             item
             sm={12}
-            paddingBottom={{ xs: "20px", sm: "60px" }}
+            paddingBottom={{ xs: "20px", sm: "20px", xl: "70px" }}
             marginLeft="auto"
             marginRight="auto"
           >
             <span className="text-3">Our Values</span>
           </Grid>
-
           <Grid item sm={6}>
             <Box
               width={{ xs: "36px", sm: "70px" }}

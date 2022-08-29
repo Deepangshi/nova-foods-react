@@ -22,7 +22,7 @@ const Home = () => {
         xl: "calc(100vh - 95px)",
       }}
       display="flex"
-      paddingTop={{ md: "50px", lg: "30px", xl: "110px" }}
+      paddingTop={{ md: "50px", lg: "30px", xl: "70px" }}
       backgroundColor="#e7302a"
       overflow="hidden"
     >
@@ -66,7 +66,7 @@ const Home = () => {
       >
         <Grid item md={4} lg={4}>
           <Box
-            width={{ md: "290px", lg: "290px", xl: "510px" }}
+            width={{ md: "290px", lg: "290px", xl: "370px" }}
             marginRight="auto"
           >
             <img src={Left} alt="" className="" width="100%" />
@@ -85,7 +85,7 @@ const Home = () => {
 
         <Grid item sm={4}>
           <Box
-            width={{ md: "290px", lg: "290px", xl: "510px" }}
+            width={{ md: "290px", lg: "290px", xl: "370px" }}
             marginLeft="auto"
           >
             <img src={Right} alt="" className="" width="100%" />

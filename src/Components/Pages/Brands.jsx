@@ -150,7 +150,13 @@ const Brands = () => {
         className="brand-2"
       >
         <Grid item sm={7}>
-          <p className="sw-text1">sweet cravings</p>
+          <Box
+            marginTop={{ xs: "26px", sm: "0" }}
+            marginBottom={{ xs: "10px", sm: "0" }}
+            className="sw-text1"
+          >
+            sweet cravings
+          </Box>
           <p className="sw-text2">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est diam
             vel ut dictumst. Cursus congue id id nam ante ac, duis sit. Vel
@@ -191,7 +197,13 @@ const Brands = () => {
           </Box>
         </Grid>
         <Grid item sm={7}>
-          <p className="cl-text">Classic fried Chicken</p>
+          <Box
+            marginTop={{ xs: "26px", sm: "0" }}
+            marginBottom={{ xs: "10px", sm: "0" }}
+            className="cl-text"
+          >
+            Classic fried Chicken
+          </Box>
           <p className="cl-text1">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est diam
             vel ut dictumst. Cursus congue id id nam ante ac, duis sit. Vel
@@ -214,7 +226,13 @@ const Brands = () => {
         className="brand-2"
       >
         <Grid item sm={7}>
-          <p className="r-text1">barbar</p>
+          <Box
+            marginTop={{ xs: "26px", sm: "0" }}
+            marginBottom={{ xs: "10px", sm: "0" }}
+            className="r-text1"
+          >
+            barbar
+          </Box>
           <p className="r-text2">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est diam
             vel ut dictumst. Cursus congue id id nam ante ac, duis sit. Vel
